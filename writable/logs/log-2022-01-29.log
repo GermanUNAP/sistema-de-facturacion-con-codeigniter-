@@ -1,0 +1,310 @@
+CRITICAL - 2022-01-29 23:12:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tienda2\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tienda2\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-29 23:15:09 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tienda2\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tienda2\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-29 18:31:59 --> Undefined variable $request
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-29 18:32:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-29 18:32:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\tienda2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-29 18:50:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-29 18:50:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\tienda2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-29 18:52:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-29 18:52:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\tienda2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-29 18:53:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-29 18:53:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\tienda2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\tienda2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 19:08:51 --> Invalid file: header.php
+#0 C:\xampp\htdocs\tienda2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\tienda2\system\Common.php(1097): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(41): view('header')
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 20:12:34 --> Invalid file: header.php
+#0 C:\xampp\htdocs\tienda2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\tienda2\system\Common.php(1097): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\tienda2\app\Controllers\Principal.php(41): view('header')
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Principal->guardar()
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-29 20:14:57 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\tienda2\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/index')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/index')
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:15:10 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\tienda2\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/index')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/index')
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:15:25 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\tienda2\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/index')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/index')
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:15:34 --> Cannot call constructor
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:18:41 --> Class "App\Controllers\CI_Controller" not found
+#0 C:\xampp\htdocs\tienda2\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\tienda2\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/index')
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/index')
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 20:18:59 --> Cannot call constructor
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:21:59 --> Cannot call constructor
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:26:01 --> Undefined property: App\Controllers\Login::$input
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:26:41 --> Undefined property: App\Controllers\Login::$input
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:29:51 --> filter_var(): Unknown filter with ID 1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var(): U...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\tienda2\system\HTTP\RequestTrait.php(299): filter_var('correo@gmail.co...', 1, 0)
+#2 C:\xampp\htdocs\tienda2\system\HTTP\IncomingRequest.php(596): CodeIgniter\HTTP\Request->fetchGlobal('post', 'correo', 1, 0)
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('correo', true)
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 20:31:33 --> filter_var(): Unknown filter with ID 1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var(): U...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\tienda2\system\HTTP\RequestTrait.php(299): filter_var('correo@gmail.co...', 1, 0)
+#2 C:\xampp\htdocs\tienda2\system\HTTP\IncomingRequest.php(596): CodeIgniter\HTTP\Request->fetchGlobal('post', 'correo', 1, 0)
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('correo', true)
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 20:31:47 --> filter_var(): Unknown filter with ID 1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var(): U...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\tienda2\system\HTTP\RequestTrait.php(299): filter_var('correo@gmail.co...', 1, 0)
+#2 C:\xampp\htdocs\tienda2\system\HTTP\IncomingRequest.php(596): CodeIgniter\HTTP\Request->fetchGlobal('post', 'correo', 1, 0)
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('correo', true)
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 20:32:20 --> filter_var(): Unknown filter with ID 1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var(): U...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\tienda2\system\HTTP\RequestTrait.php(299): filter_var('correo@gmail.co...', 1, 0)
+#2 C:\xampp\htdocs\tienda2\system\HTTP\IncomingRequest.php(596): CodeIgniter\HTTP\Request->fetchGlobal('post', 'correo', 1, 0)
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('correo', true)
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 20:33:51 --> filter_var(): Unknown filter with ID 1
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var(): U...', 'C:\\xampp\\htdocs...', 299)
+#1 C:\xampp\htdocs\tienda2\system\HTTP\RequestTrait.php(299): filter_var('correo@gmail.co...', 1, 0)
+#2 C:\xampp\htdocs\tienda2\system\HTTP\IncomingRequest.php(596): CodeIgniter\HTTP\Request->fetchGlobal('post', 'correo', 1, 0)
+#3 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('correo', true)
+#4 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 20:34:15 --> Undefined property: App\Controllers\Login::$Login_model
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:34:45 --> Call to undefined function App\Controllers\check_user()
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:35:12 --> Undefined property: App\Controllers\Login::$Login_model
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 20:36:12 --> Call to undefined method App\Controllers\Login::check_user()
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:36:23 --> Call to undefined function App\Controllers\check_user()
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:37:07 --> Call to undefined function App\Controllers\check_user()
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:40:05 --> Call to undefined function App\Controllers\check_user()
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:46:01 --> Cannot call constructor
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:59:08 --> Cannot call constructor
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 20:59:27 --> Undefined property: App\Controllers\Login::$Login_Model
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:01:02 --> Call to a member function num_rows() on string
+#0 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 21:01:41 --> Undefined property: App\Controllers\Login::$SELECT * FROM USUARIOS WHERE CORERO = correo@gmail.com and contra = german
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:02:13 --> Undefined property: App\Controllers\Login::$SELECT * FROM USUARIOS WHERE CORREO = correo@gmail.com and contra = german
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:02:39 --> Undefined property: App\Controllers\Login::$SELECT * FROM USUARIOS WHERE CORREO = correo@gmail.com and contra = german
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:10:21 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, CodeIgniter\Database\MySQLi\Connection given
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(21): mysqli_query(Object(CodeIgniter\Database\MySQLi\Connection), 'SELECT * FROM U...')
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:13:25 --> mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(23): mysqli_fetch_assoc(false)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:16:16 --> mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(25): mysqli_fetch_assoc(false)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-29 21:19:34 --> mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\tienda2\app\Controllers\Login.php(25): mysqli_fetch_assoc(false)
+#1 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(824): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tienda2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tienda2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
